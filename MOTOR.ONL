@@ -1,0 +1,1296 @@
+(PCB MOTOR
+ (description
+  (timeStamp "2011 08 12 09 00 22")
+  (program "CAPTURE.EXE" (Version "10.5.0.b001 CIS"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "Wednesday, August 10, 2011")
+  (document "D:\\项目 - 新型灰分仪机械运动平台接口板设计\\原理图及PCB设计\\MOTOR.DSN")
+  (revision "0.1")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "HEADER 15"
+   (place J4
+    (property 
+     ("PCB Footprint" "SIP-15P")
+     (timestamp 00FFC5D3)
+     ("Source Package" "HEADER 15")
+     (Value "HEADER 15")))
+   (place J5
+    (property 
+     ("PCB Footprint" "SIP-15P")
+     (timestamp 00FFD4FB)
+     ("Source Package" "HEADER 15")
+     (Value "HEADER 15"))))
+  (component CON2
+   (place J11
+    (property 
+     ("PCB Footprint" CONN2_508)
+     (timestamp 01005662)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J12
+    (property 
+     ("PCB Footprint" CONN2_508)
+     (timestamp 010057C1)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J3
+    (property 
+     ("PCB Footprint" CONN2_508)
+     (timestamp 01000A79)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J6
+    (property 
+     ("PCB Footprint" CONN2_508)
+     (timestamp 01000AED)
+     ("Source Package" CON2)
+     (Value CON2)))
+   (place J7
+    (property 
+     ("PCB Footprint" CONN2_508)
+     (timestamp 00E61A2E)
+     ("Source Package" CON2)
+     (Value CON2))))
+  (component ZTA
+   (place Y1
+    (property 
+     ("PCB Footprint" CK05)
+     (timestamp 00E61593)
+     ("Source Package" ZTA)
+     (Value 18.432MHz))))
+  (component "CAP NP"
+   (place C20
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 010057B9)
+     ("Source Package" "CAP NP")
+     (Value 105)))
+   (place C22
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01008D67)
+     ("Source Package" "CAP NP")
+     (Value 104)))
+   (place C23
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01008E2C)
+     ("Source Package" "CAP NP")
+     (Value 104)))
+   (place C24
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01008EF1)
+     ("Source Package" "CAP NP")
+     (Value 104)))
+   (place C25
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 0100D7C2)
+     ("Source Package" "CAP NP")
+     (Value 104)))
+   (place C1
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E6959A)
+     ("Source Package" "CAP NP")
+     (Value 104)))
+   (place C3
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01003AEC)
+     ("Source Package" "CAP NP")
+     (Value 105)))
+   (place C4
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01003B72)
+     ("Source Package" "CAP NP")
+     (Value 105)))
+   (place C5
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E615A3)
+     ("Source Package" "CAP NP")
+     (Value 30P)))
+   (place C6
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E615B3)
+     ("Source Package" "CAP NP")
+     (Value 30P)))
+   (place C19
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 0100565A)
+     ("Source Package" "CAP NP")
+     (Value 105))))
+  (component "Led Yellow HSMY-C170"
+   (place DS1
+    (property 
+     (DEV "DSS_HMSX-C170_01")
+     (FAB AGILENT)
+     ("PCB Footprint" 0805)
+     (timestamp 00FF4962)
+     (BOI "L=2.0 l=1.25 h=0.8")
+     ("Source Package" "Led Yellow HSMY-C170")
+     (DESIG "Chip Led Yellow")
+     (VAL RED)
+     (Value led)
+     (REF "HSMY-C170")))
+   (place DS2
+    (property 
+     (DEV "DSS_HMSX-C170_01")
+     (FAB AGILENT)
+     ("PCB Footprint" 0805)
+     (timestamp 00FF49B2)
+     (BOI "L=2.0 l=1.25 h=0.8")
+     ("Source Package" "Led Yellow HSMY-C170")
+     (DESIG "Chip Led Yellow")
+     (VAL GREEN)
+     (Value led)
+     (REF "HSMY-C170"))))
+  (component CONN3
+   (place J1
+    (property 
+     ("PCB Footprint" CONN3_508)
+     (timestamp 00FF6D4F)
+     ("Source Package" CONN3)
+     (Value CONN3)))
+   (place J2
+    (property 
+     ("PCB Footprint" CONN3_508)
+     (timestamp 00FF6DED)
+     ("Source Package" CONN3)
+     (Value CONN3)))
+   (place J8
+    (property 
+     ("PCB Footprint" CONN3_508)
+     (timestamp 00FF3C73)
+     ("Source Package" CONN3)
+     (Value CONN3))))
+  (component SN75LBC184_0
+   (place U4
+    (property 
+     ("PCB Footprint" "SO8-OPT")
+     (timestamp 00FF3E71)
+     ("Source Package" SN75LBC184_0)
+     (Value SN75LBC184D))))
+  (component C_elect_0
+   (place C21
+    (property 
+     (ESR ESR)
+     (Voltage CMAX)
+     (RTH THERMR)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" 1808)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 01006106)
+     (DIST FLAT)
+     (NEGATIVE_VOLTAGE CVN)
+     (SLOPE CSMAX)
+     ("Source Package" C_elect_0)
+     (Value 106C)
+     (MAX_TEMP CTMAX)
+     (POWER CPMAX)))
+   (place C2
+    (property 
+     (ESR ESR)
+     (Voltage CMAX)
+     (RTH THERMR)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" 1808)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FFF834)
+     (DIST FLAT)
+     (NEGATIVE_VOLTAGE CVN)
+     (SLOPE CSMAX)
+     ("Source Package" C_elect_0)
+     (Value 106C)
+     (MAX_TEMP CTMAX)
+     (POWER CPMAX)))
+   (place C7
+    (property 
+     (ESR ESR)
+     (Voltage CMAX)
+     (RTH THERMR)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" 6032_P)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00E69B0E)
+     (DIST FLAT)
+     (NEGATIVE_VOLTAGE CVN)
+     (SLOPE CSMAX)
+     ("Source Package" C_elect_0)
+     (Value 476E)
+     (MAX_TEMP CTMAX)
+     (POWER CPMAX)))
+   (place C8
+    (property 
+     (ESR ESR)
+     (Voltage CMAX)
+     (RTH THERMR)
+     (CURRENT CIMAX)
+     (KNEE CBMAX)
+     ("PCB Footprint" 6032_P)
+     (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF2FF6)
+     (DIST FLAT)
+     (NEGATIVE_VOLTAGE CVN)
+     (SLOPE CSMAX)
+     ("Source Package" C_elect_0)
+     (Value 476E)
+     (MAX_TEMP CTMAX)
+     (POWER CPMAX))))
+  (component "CONN FLEX 4"
+   (place J10
+    (property 
+     ("PCB Footprint" CONN4_508)
+     (timestamp 00FF6177)
+     ("Source Package" "CONN FLEX 4")
+     (Value "CONN FLEX 4")))
+   (place J9
+    (property 
+     ("PCB Footprint" CONN4_508)
+     (timestamp 00FF603D)
+     ("Source Package" "CONN FLEX 4")
+     (Value "CONN FLEX 4"))))
+  (component INDUCTOR
+   (place L1
+    (property 
+     ("PCB Footprint" BEAD2A)
+     (timestamp 00E69AEC)
+     ("Source Package" INDUCTOR)
+     (Value "Ferrite Bead 2A"))))
+  (component "AZ1015-04S"
+   (place U5
+    (property 
+     ("PCB Footprint" "SOT23-6L")
+     (timestamp 01006BF1)
+     ("Source Package" "AZ1015-04S")
+     (Value "AZ1015-04S")))
+   (place U6
+    (property 
+     ("PCB Footprint" "SOT23-6L")
+     (timestamp 01006CA5)
+     ("Source Package" "AZ1015-04S")
+     (Value "AZ1015-04S")))
+   (place U7
+    (property 
+     ("PCB Footprint" "SOT23-6L")
+     (timestamp 01006D59)
+     ("Source Package" "AZ1015-04S")
+     (Value "AZ1015-04S")))
+   (place U8
+    (property 
+     ("PCB Footprint" "SOT23-6L")
+     (timestamp 0100D7A6)
+     ("Source Package" "AZ1015-04S")
+     (Value "AZ1015-04S"))))
+  (component IB1205_1
+   (place U2
+    (property 
+     ("PCB Footprint" "F_D-2W")
+     (timestamp 00FF2DEC)
+     ("Source Package" IB1205_1)
+     (Value "F1205D-2w"))))
+  (component BZX84C11/SOT_0
+   (place D1
+    (property 
+     ("PCB Footprint" DO15)
+     (timestamp 00E69AFC)
+     ("Source Package" BZX84C11/SOT_0)
+     (Value P6KE18CA)))
+   (place D2
+    (property 
+     ("PCB Footprint" DO15)
+     (timestamp 01004EA6)
+     ("Source Package" BZX84C11/SOT_0)
+     (Value P6KE18CA)))
+   (place D3
+    (property 
+     ("PCB Footprint" DO15)
+     (timestamp 01004EEC)
+     ("Source Package" BZX84C11/SOT_0)
+     (Value P6KE18CA))))
+  (component R
+   (place R1
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01000C39)
+     ("Source Package" R)
+     (Value 1K)))
+   (place R2
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00FFFB15)
+     ("Source Package" R)
+     (Value 20K)))
+   (place R3
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01000FB4)
+     ("Source Package" R)
+     (Value 100K)))
+   (place R4
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00E617C7)
+     ("Source Package" R)
+     (Value 10K)))
+   (place R5
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00FFFA9D)
+     ("Source Package" R)
+     (Value 10K)))
+   (place R6
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01001370)
+     ("Source Package" R)
+     (Value 1K)))
+   (place R7
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01001384)
+     ("Source Package" R)
+     (Value 100K)))
+   (place R10
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 01005680)
+     ("Source Package" R)
+     (Value 1K)))
+   (place R11
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 0100568E)
+     ("Source Package" R)
+     (Value 100K)))
+   (place R12
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 010057DF)
+     ("Source Package" R)
+     (Value 1K)))
+   (place R13
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 010057ED)
+     ("Source Package" R)
+     (Value 100K))))
+  (component C
+   (place C9
+    (property 
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00E69B1E)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 104)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C10
+    (property 
+     (VOLTAGE CMAX)
+     (KNEE CBMAX)
+     (CURRENT CIMAX)
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF2FCC)
+     (DIST FLAT)
+     (SLOPE CSMAX)
+     ("Source Package" C)
+     (Value 104)
+     (MAX_TEMP CTMAX)
+     (TC1 0)
+     (TC2 0)))
+   (place C11
+    (property 
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF3D6B)
+     ("Source Package" C)
+     (Value 104)))
+   (place C12
+    (property 
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF3DB3)
+     ("Source Package" C)
+     (Value 104)))
+   (place C13
+    (property 
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF3D93)
+     ("Source Package" C)
+     (Value 104)))
+   (place C14
+    (property 
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF3D2F)
+     ("Source Package" C)
+     (Value 104)))
+   (place C15
+    (property 
+     ("PCB Footprint" 0805)
+     (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+     (timestamp 00FF3D7B)
+     ("Source Package" C)
+     (Value 104)))
+   (place C16
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00FF3E39)
+     ("Source Package" C)
+     (Value 30p)))
+   (place C17
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00FF3E49)
+     ("Source Package" C)
+     (Value 30p)))
+   (place C18
+    (property 
+     ("PCB Footprint" 0805)
+     (timestamp 00FF3F3D)
+     ("Source Package" C)
+     (Value 104))))
+  (component "39-0603"
+   (place R8
+    (property 
+     (PUI 0.063)
+     (DEV R0603)
+     (FAB PHILIPS)
+     ("PCB Footprint" 0805)
+     (timestamp 00FF4976)
+     (BOI 0603)
+     ("Source Package" "39-0603")
+     (DESIG "RC21 5%")
+     (VAL 1K)
+     (TOL 5%)
+     (Value 1k)
+     (REF "2322-702-60399")))
+   (place R9
+    (property 
+     (PUI 0.063)
+     (DEV R0603)
+     (FAB PHILIPS)
+     ("PCB Footprint" 0805)
+     (timestamp 00FF4992)
+     (BOI 0603)
+     ("Source Package" "39-0603")
+     (DESIG "RC21 5%")
+     (VAL 1K)
+     (TOL 5%)
+     (Value 1k)
+     (REF "2322-702-60399"))))
+  (component MAX3232/SO_1
+   (place U3
+    (property 
+     ("PCB Footprint" SO16NB)
+     (timestamp 00FF3D5B)
+     ("Source Package" MAX3232/SO_1)
+     (Value MAX3232))))
+  (component STC12C5A60S2
+   (place U1
+    (property 
+     ("PCB Footprint" LQPF44)
+     (timestamp 00FF34FA)
+     ("Source Package" STC12C5A60S2)
+     (Value STC12C5A60S2)))))
+ (library
+  (image "CAP NP"
+   (property 
+    (sourcelib D:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image C_elect_0
+   (property 
+    (sourcelib "D:\\辰安伟业\\1 - 多道板\\信号采集板原理图、PCB\\MCA.DSN")
+    (POWER CPMAX)
+    (NEGATIVE_VOLTAGE CVN)
+    (RTH THERMR)
+    (ESR ESR)
+    (MAX_TEMP CTMAX)
+    (SLOPE CSMAX)
+    (KNEE CBMAX)
+    (CURRENT CIMAX)
+    (PSpiceTemplate "C^@REFDES %+ %- ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+    (Voltage CMAX)
+    (DIST FLAT))
+   (pin 999 1
+    (property 
+     (pinname +)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname "-")
+     (pintype 4))))
+  (image STC12C5A60S2
+   (property 
+    (sourcelib D:\\ORCAD_LIB\\MYLIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname MOSI/ADC5/P1.5)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname MISO/ADC6/P1.6)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname SCLK/ADC7/P1.7)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname P4.7/RST)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname RXD/P3.0)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname SCLK/TXD2/CCP1/P4.3)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname TXD/P3.1)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname I\\N\\T\\0\\/P3.2)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname I\\N\\T\\1\\/P3.3)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname CLKOUT0/T0/P3.4)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname CLKOUT1/T1/P3.5)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname W\\R\\/P3.6)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname R\\D\\/P3.7)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname XTAL2)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname XTAL1)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname SS/P4.0)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname P2.0)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname P2.1)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname P2.2)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname P2.3)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname P2.4)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname P2.5)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname P2.6)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname P2.7)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname NA/P4.4)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname ALE/P4.5)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname P4.1/ECI/MOSI)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname EX_LVD/P4.6/RST2)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname P0.7)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname P0.6)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname P0.4)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname P0.5)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname P0.0)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname P0.1)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname P0.2)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname P0.3)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname VCC)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname P4.2/CCP0/RXD2/MOSO)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname P1.0/ADC0/CLKOUT2)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname P1.1/ADC1)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname P1.2/ADC2/ECI/RXD2)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname P1.3/ADC3/CCP0/TXD2)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname P1.4/ADC4/CCP1/SS)
+     (pintype 4))))
+  (image IB1205_1
+   (property 
+    (sourcelib "D:\\项目 - 煤质煤量仪\\电路设计\\电机控制模块\\MOTOR.DSN"))
+   (pin 999 10
+    (property 
+     (pinname 0V)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname +VOUT)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname +VIN)
+     (pintype 0)))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 0))))
+  (image R
+   (property 
+    (sourcelib D:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image MAX3232/SO_1
+   (property 
+    (sourcelib "D:\\项目 - 煤质煤量仪\\电路设计\\电机控制模块\\MOTOR.DSN"))
+   (pin 999 15
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 16
+    (property 
+     (pinname VCC)
+     (pintype 7)))
+   (pin 999 13
+    (property 
+     (pinname R1IN)
+     (pintype 0)))
+   (pin 999 8
+    (property 
+     (pinname R2IN)
+     (pintype 0)))
+   (pin 999 10
+    (property 
+     (pinname T2IN)
+     (pintype 0)))
+   (pin 999 11
+    (property 
+     (pinname T1IN)
+     (pintype 0)))
+   (pin 999 1
+    (property 
+     (pinname C1+)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname "C1-")
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname C2+)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname "C2-")
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname V+)
+     (pintype 7)))
+   (pin 999 6
+    (property 
+     (pinname "V-")
+     (pintype 7)))
+   (pin 999 12
+    (property 
+     (pinname R1OUT)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname R2OUT)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname T1OUT)
+     (pintype 2)))
+   (pin 999 7
+    (property 
+     (pinname T2OUT)
+     (pintype 2))))
+  (image SN75LBC184_0
+   (property 
+    (sourcelib "E:\\JOB\\TG-1湿度风速结露测量项目\\湿度测量设计\\AT89C2051.DSN"))
+   (pin 999 1
+    (property 
+     (pinname R)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname R\\E\\)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname DE)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname D)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname A)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname B)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname VCC)
+     (pintype 4))))
+  (image "AZ1015-04S"
+   (property 
+    (sourcelib D:\\ORCAD_LIB\\MYLIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname IO1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname IO2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname IO3)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname IO4)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname VDD)
+     (pintype 4))))
+  (image INDUCTOR
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.0\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image "39-0603"
+   (property 
+    (sourcelib "C:\\MES DOCUMENTS\\ORCAD\\R603.OLB")
+    (VAL 39R)
+    (DEV R0603)
+    (REF "2322-702-60399")
+    (TOL 5%)
+    (DESIG "RC21 5%")
+    (BOI 0603)
+    (FAB PHILIPS)
+    (PUI 0.063))
+   (pin 999 1
+    (property 
+     (pinname R1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname R2)
+     (pintype 4))))
+  (image "CONN FLEX 4"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4))))
+  (image CON2
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image C
+   (property 
+    (sourcelib D:\\CADENCE\\ORCAD\\ORCAD_16.2\\TOOLS\\CAPTURE\\LIBRARY\\PSPICE\\ANALOG.OLB)
+    (TC2 0)
+    (TC1 0)
+    (DIST FLAT)
+    (PSpiceTemplate "C^@REFDES %1 %2 ?TOLERANCE|C^@REFDES| @VALUE ?IC/IC=@IC/ TC=@TC1,@TC2 ?TOLERANCE|\\n.model C^@REFDES CAP C=1 DEV=@TOLERANCE%|")
+    (VOLTAGE CMAX)
+    (CURRENT CIMAX)
+    (KNEE CBMAX)
+    (SLOPE CSMAX)
+    (MAX_TEMP CTMAX))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image ZTA
+   (property 
+    (sourcelib D:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4))))
+  (image CONN3
+   (property 
+    (sourcelib D:\\[PCB设计]\\ORCAD库\\YANGLIN.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4))))
+  (image "HEADER 15"
+   (property 
+    (sourcelib C:\\ORCAD\\ORCAD_10.5\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4))))
+  (image BZX84C11/SOT_0
+   (property 
+    (sourcelib D:\\辰安伟业\\2009\\多道\\20090818\\MCA.DSN))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4))))
+  (image "Led Yellow HSMY-C170"
+   (property 
+    (sourcelib "C:\\MES DOCUMENTS\\ORCAD\\ATMEL.OLB")
+    (REF "HSMY-C170")
+    (DESIG "Chip Led Yellow")
+    (BOI "L=2.0 l=1.25 h=0.8")
+    (FAB AGILENT)
+    (DEV "DSS_HMSX-C170_01")
+    (VAL YELLOW))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4)))))
+ (network
+  (net EN_RS485
+   (pins
+     U1-12 U4-3 U4-2))
+  (net N16782202
+   (pins
+     J6-1 R6-2))
+  (net N15078697
+   (pins
+     C2-2 U1-4 R4-1))
+  (net INT1
+   (pins
+     U1-9 R7-1 J6-2 C4-1))
+  (net INT0
+   (pins
+     U1-8 C3-1 J3-2 R3-1))
+  (net LED
+   (pins
+     U1-13 DS2-1))
+  (net CCP0
+   (pins
+     U8-6 U1-39 J1-1))
+  (net CCP1
+   (pins
+     U8-3 U1-6 J2-1))
+  (net 5V
+    (property 
+     (nettype S))
+   (pins
+     R2-1 U1-38 C1-1 C2-1 R12-1 R10-1 C21-1 R6-1 R1-1
+     J5-14 J5-15 C25-1 U8-5 C24-1 U7-5 U6-5 C23-1 C22-1
+     U5-5 C10-2 C8-1 R9-2 U2-8 R8-2 C18-1 U3-16 C14-2
+     U4-8))
+  (net GND_POWER
+    (property 
+     (nettype S))
+   (pins
+     C21-2 C1-2 R5-2 R13-2 C25-2 J2-2 R7-2 C4-2 R3-2
+     C3-2 U8-2 U5-2 U6-2 C22-2 J4-15 J4-2 J4-1 R4-2
+     C20-2 R11-2 C19-2 C23-2 U7-2 C24-2 J1-2 C5-2 C6-2
+     U1-16 J5-13 U2-10 C10-1 DS1-1 C8-2 J8-2 C18-2 C14-1
+     C13-1 C12-2 U3-15 U4-5 C16-2 C17-2 D3-2 D2-2))
+  (net N15112878
+   (pins
+     J7-1 D1-1 L1-1 C7-1 C9-2))
+  (net GND_EARTH
+    (property 
+     (nettype S))
+   (pins
+     C7-2 C9-1 D1-2 J7-2 U2-1 J9-3 J10-3))
+  (net DIR1
+   (pins
+     U1-11 J2-3 U8-4))
+  (net DIR0
+   (pins
+     U8-1 U1-10 J1-3))
+  (net N16799350
+   (pins
+     J11-1 R10-2))
+  (net RXD1
+   (pins
+     U1-5 U3-12))
+  (net N16799701
+   (pins
+     R12-2 J12-1))
+  (net TXD1
+   (pins
+     U1-7 U3-11))
+  (net P0.6
+   (pins
+     U5-1 U1-31 J4-13))
+  (net P0.0
+   (pins
+     J4-7 U1-37 U6-4))
+  (net P0.7
+   (pins
+     U5-3 U1-30 J4-14))
+  (net RXD2
+   (pins
+     U1-42 U4-1))
+  (net P0.5
+   (pins
+     U1-32 U5-6 J4-12))
+  (net TXD2
+   (pins
+     U1-43 U4-4))
+  (net P0.3
+   (pins
+     J4-10 U6-3 U1-34))
+  (net P0.4
+   (pins
+     U1-33 U5-4 J4-11))
+  (net P0.2
+   (pins
+     U6-1 U1-35 J4-9))
+  (net P0.1
+   (pins
+     J4-8 U1-36 U6-6))
+  (net P2.0
+   (pins
+     U1-18 J5-11))
+  (net P2.4
+   (pins
+     J5-7 U1-22))
+  (net P2.3
+   (pins
+     U1-21 J5-8))
+  (net P1.1
+   (pins
+     J4-5 U1-41 U7-1))
+  (net P2.2
+   (pins
+     J5-9 U1-20))
+  (net P2.1
+   (pins
+     U1-19 J5-10))
+  (net P4.1
+   (pins
+     U1-28 J5-1))
+  (net P2.5
+   (pins
+     J5-6 U1-23))
+  (net N15078855
+   (pins
+     C5-1 U1-14 Y1-1))
+  (net P4.4
+   (pins
+     U1-26 J5-3))
+  (net P2.7
+   (pins
+     U1-25 J5-4))
+  (net P4.5
+   (pins
+     U1-27 J5-2))
+  (net P2.6
+   (pins
+     J5-5 U1-24))
+  (net N15078843
+   (pins
+     C6-1 Y1-2 U1-15))
+  (net P4.0
+   (pins
+     J5-12 U1-17))
+  (net A
+   (pins
+     U4-6 C16-1 J9-1 J10-1 D3-1))
+  (net B
+   (pins
+     U4-7 C17-1 J9-2 J10-2 D2-1))
+  (net N16727307
+   (pins
+     U3-4 C15-1))
+  (net N16727287
+   (pins
+     C11-2 U3-3))
+  (net P1.0
+   (pins
+     J4-6 U7-3 U1-40))
+  (net P1.7
+   (pins
+     U1-3 J12-2 R13-1 C20-1))
+  (net P1.6
+   (pins
+     U1-2 J11-2 R11-1 C19-1))
+  (net P1.5
+   (pins
+     U1-1 U7-4 J4-3))
+  (net P1.4
+   (pins
+     J4-4 U7-6 U1-44))
+  (net N16727311
+   (pins
+     U3-5 C15-2))
+  (net N16727455
+   (pins
+     U3-2 C13-2))
+  (net N16727451
+   (pins
+     C12-1 U3-6))
+  (net N16727283
+   (pins
+     U3-1 C11-1))
+  (net N16730534
+   (pins
+     DS2-2 R9-1))
+  (net N16730474
+   (pins
+     DS1-2 R8-1))
+  (net TX
+   (pins
+     J8-3 U3-14))
+  (net RX
+   (pins
+     J8-1 U3-13))
+  (net 12V
+    (property 
+     (nettype S))
+   (pins
+     U2-14 L1-2 J9-4 J10-4))
+  (net N16751569
+   (pins
+     R2-2 R5-1 U1-29))
+  (net N16780749
+   (pins
+     J3-1 R1-2)))
+)

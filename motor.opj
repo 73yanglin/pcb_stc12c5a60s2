@@ -1,0 +1,162 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "d:\orcad_lib\mylibrary.olb"
+        (Type "Schematic Library")))
+    (File ".\motor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "FALSE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File
+       "D:\项目 - 新型灰分仪机械运动平台接口板设计\原理图及pcb设计\MOTOR.DRC")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "MOTOR.asc")
+    (OTHER_Netlist_File2 "MOTOR.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "pads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\项目 - 新型灰分仪机械运动平台接口板设计\PCB_STC12C5A60S2\MOTOR.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "D:\项目 - 新型灰分仪机械运动平台接口板设计\PCB_STC12C5A60S2\MOTOR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\motor.drc"
+      (Type "Report"))
+    (File ".\motor.asc"
+      (Type "Report"))
+    (File ".\motor.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (AZ1015-04S
+      (FullPartName "AZ1015-04S.Normal")
+      (LibraryName "D:\ORCAD_LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 15"
+      (FullPartName "HEADER 15.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 11"
+      (FullPartName "HEADER 11.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 13"
+      (FullPartName "HEADER 13.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CONN FLEX 4"
+      (FullPartName "CONN FLEX 4.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STC12C5A60S2
+      (FullPartName "STC12C5A60S2.Normal")
+      (LibraryName "D:\ORCAD_LIB\MYLIBRARY.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\motor.dsn")
+      (Path "Design Resources" ".\motor.dsn" "motor")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\orcad_lib\mylibrary.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\motor.dsn" "motor" "POWER"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 627"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 44 1744 58 719")
+        (Scroll "0 0")
+        (Zoom "125")
+        (Occurrence "/"))
+      (Path
+         "D:\项目 - 新型灰分仪机械运动平台接口板设计\PCB_STC12C5A60S2\MOTOR.DSN")
+      (Schematic "motor")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 66 1766 87 748")
+        (Scroll "0 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "D:\项目 - 新型灰分仪机械运动平台接口板设计\PCB_STC12C5A60S2\MOTOR.DSN")
+      (Schematic "motor")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 88 1788 116 777")
+        (Scroll "0 0")
+        (Zoom "125")
+        (Occurrence "/"))
+      (Path
+         "D:\项目 - 新型灰分仪机械运动平台接口板设计\PCB_STC12C5A60S2\MOTOR.DSN")
+      (Schematic "motor")
+      (Page "UART")))
+  (MPSSessionName "yanglin2011"))

@@ -1,0 +1,33 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: motor
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking for Invalid References
+
+Reporting Ports
+
+Reporting Off-Page Connections
+    EN_RS485
+    TXD1
+    TXD2
+    RXD1
+    RXD2
+    LED
+
+Reporting Globals
+    GND_EARTH
+    12V
+    GND_POWER
+    5V
+
+Checking Visible Unconnected Power Pins
+
+Check Bus width mismatch

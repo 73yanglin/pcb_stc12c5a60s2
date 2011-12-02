@@ -1,0 +1,36 @@
+"  Revised: Friday, August 12, 2011"				
+          Revision: 				
+				
+				
+				
+				
+				
+				
+				
+"Bill Of Materials         August 24,2011      10:09:12"	Page1			
+				
+Item	Quantity	Reference	Part	PCB Footprint
+______________________________________________				
+				
+1	13	"C1,C9,C10,C11,C12,C13,C14,C15,C18,C22,C23,C24,C25"	104	805
+2	2	"C2,C21"	106C	1808
+3	4	"C3,C4,C19,C20"	105	805
+4	4	"C5,C6,C16,C17"	30p	805
+5	2	"C7,C8"	476E	6032_P
+6	2	"DS1,DS2"	led	805
+7	3	"D1,D2,D3"	P6KE18CA	DO15
+8	3	"J1,J2,J8"	CONN3	CONN3_508
+9	5	"J3,J6,J7,J11,J12"	CON2	CONN2_508
+10	2	"J4,J5"	HEADER 15	SIP-15P
+11	2	"J9,J10"	CONN FLEX 4	CONN4_508
+12	1	L1	Ferrite Bead 2A	BEAD2A
+13	6	"R1,R6,R8,R9,R10,R12"	1K	805
+14	1	R2	20K	805
+15	4	"R3,R7,R11,R13"	100K	805
+16	2	"R4,R5"	10K	805
+17	1	U1	STC12C5A60S2	LQPF44
+18	1	U2	F1205D-2w	F_D-2W
+19	1	U3	MAX3232	SO16NB
+20	1	U4	SN75LBC184D	SO8-OPT
+21	4	"U5,U6,U7,U8"	AZ1015-04S	SOT23-6L
+22	1	Y1	18.432MHz	CK05
